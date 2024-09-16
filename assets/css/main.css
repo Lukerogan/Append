@@ -40,8 +40,8 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f9f9f9;
-  --surface-color: #ffffff;
+  --background-color: #1acbd1;
+  --surface-color: #8ff7b2;
 }
 
 .dark-background {
@@ -49,7 +49,7 @@
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #252525;
-  --contrast-color: #ffffff;
+  --contrast-color: #7a7a7a;
 }
 
 /* Smooth scroll */
@@ -92,7 +92,7 @@ h6 {
 .php-email-form .error-message {
   display: none;
   background: #df1529;
-  color: #ffffff;
+  color: #7a7a7a;
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
@@ -101,7 +101,7 @@ h6 {
 
 .php-email-form .sent-message {
   display: none;
-  color: #ffffff;
+  color: #7a7a7a;
   background: #059652;
   text-align: center;
   padding: 15px;
@@ -214,17 +214,17 @@ h6 {
 ------------------------------*/
 .index-page .header {
   --background-color: rgba(255, 255, 255, 0);
-  --heading-color: #ffffff;
-  --nav-color: rgba(255, 255, 255, 0.5);
-  --nav-hover-color: #ffffff;
+  --heading-color: #ffeaea;
+  --nav-color: rgb(255, 255, 255);
+  --nav-hover-color: #dbdbdb;
 }
 
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: #ffffff;
-  --heading-color: #32353a;
-  --nav-color: #3a3939;
+  --background-color: #8ff7b2;
+  --heading-color: #ffffff;
+  --nav-color: #ffffff;
   --nav-hover-color: #e84545;
 }
 
